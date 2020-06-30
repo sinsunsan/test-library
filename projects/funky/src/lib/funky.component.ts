@@ -4,7 +4,8 @@ import { Component, OnInit } from "@angular/core";
   selector: "lib-funky",
   template: `
     <p>
-      funky works 1!
+      funky works 1! with
+      <lib-shared></lib-shared>
     </p>
   `,
   styles: [
