@@ -17,7 +17,21 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "shared": [
+        "dist/shared"
+      ],
+      "shared/*": [
+        "dist/shared/*"
+      ],
+      "funky": [
+        "dist/funky"
+      ],
+      "funky/*": [
+        "dist/funky/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
